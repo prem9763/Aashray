@@ -1,0 +1,47 @@
+body{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: azure;
+    box-shadow: 10px;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle span{
+    font-size: 5em;
+    font-weight: 400;    
+}
+
+button{
+    background-color: #8dacac;
+    border: none;
+    height: 2em;
+    width: 7.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
